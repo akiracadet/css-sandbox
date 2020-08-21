@@ -1,0 +1,33 @@
+h1 {
+    color: #444444;
+    font-family: 'Helvetica', sans-serif;
+}
+
+code {
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.green {
+    color: green;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+li {
+    font: inherit;
+}
+
+/* selects a list-item that is preceded by a list item */
+li ~ li {
+    color: white;
+    background: black;
+}
+
+/* selects child of the element */
+ol > li {
+    color: white;
+    background: black;
+}

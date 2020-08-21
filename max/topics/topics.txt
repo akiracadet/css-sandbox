@@ -1,0 +1,2 @@
+Important topics to note:
+    1. Cascading and Specificity
