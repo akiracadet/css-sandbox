@@ -1,0 +1,47 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+div {
+    margin: 10px;
+    border: 5px solid darkslateblue;
+    padding: 8px;
+}
+
+div {
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+}
+
+div:first-of-type {
+    height: 100%;
+}
+
+div:first-of-type {
+    height: 300px;
+    width: 50%;
+}
+
+div {
+    display: inline-block;
+}
+
+div:first-of-type {
+    display: none;
+}
+
+div:last-of-type:hover,
+div:last-of-type:active {
+    background: darkslategray;
+}
